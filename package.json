@@ -1,0 +1,15 @@
+{
+  "name": "adventofcode2017",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sh33dafi/adventofcode2017.git",
+  "author": "Yannick Houbrix <yannick.houbrix+github@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha './{,!(node_modules)/**/}*.spec.js'"
+  }
+}
